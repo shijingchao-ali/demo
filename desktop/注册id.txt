@@ -1,0 +1,10 @@
+http://www.arcgisonline.cn/      申请账号，添加项目  
+  URL例：http://localhost:3344/webappbuilder/
+ 
+ 
+ 如不能正常加载则更换api版本即可
+ 地址：https://developers.arcgis.com/en/downloads/
+ 我用的3.29正常
+ 
+修改导出的项目配置文件：
+env.js   找到apiUrl =...  改为： apiUrl = '//localhost:63343/demo2/3.29compact';

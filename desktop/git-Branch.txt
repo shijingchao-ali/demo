@@ -1,0 +1,5 @@
+
+
+用带参数的 git log 也可以看到分支的合并情况：
+
+	git log --graph --pretty=oneline --abbrev-commit
